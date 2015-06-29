@@ -30,7 +30,8 @@ namespace platformer
         public static void init()
         {
             //TODO: Think about what we need to run the game
-
+            // We need to initialize the game window to render game
+            Game.gameWindow = new GameWindow();
         }
 
         
